@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name"viewport" content"width=device-width, initial-scale=1.0">
+	<title>My First Project</title>
+	<link rel="icon" type="image/x-icon"></link>
+	
+</head>
+<body>
+<h1>hello world</h1>
+	<p>this is the first file in my Git Repo</p>
+	<blockquote cite="">Moses answered and said if the lord be for us who can be against us"</blockquote>
+	wwf's goal is to:<q>To whom it may concern DND<q>
+	 <abbr title="Felloship of Christian Student" >FCS</abbr>
+	 <bdo dir="ltr"> the lext is from right to left </bdo>
+	 <a href="https://www.pinterest.com/pin/877920521110544875/" target="blanck">Home</a> <br>
+	 <a href="My Project.html">About</a> <br>
+	 <a href="https://business.udemy.com/?locale=en_US&ref=footer-ad&user_type=mx&utm_type=mx">Visit Our Page</a> <br>
+	 <a href="mailto:kmozbel@gmail.com">Send Email</a>
+	 <img src="demo.jpg" alt="Mountin">
+
+
+
+</body>
+
+</html>
+
