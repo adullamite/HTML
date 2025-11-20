@@ -228,3 +228,110 @@ a:hover {
   color: aliceblue;
   text-shadow: 0 0 5px white;
 }
+
+/* MOBILE VIEW */
+@media screen and (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  #navLinks {
+    flex-direction: column;
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  #button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  #hub {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  /* FIRST SECTION */
+  .first {
+    height: auto;
+    padding: 20px;
+  }
+
+  .first p {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  /* SECOND SECTION */
+  .second, .third, .fifth {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .second1 p, .third1 p, .fifth1 p {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .second2 p, .third2 p {
+    max-width: 100%;
+    text-align: justify;
+  }
+
+  .fifth2 address {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  /* FOURTH SECTION */
+  .fourth1 p {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .leaders {
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .person img.q {
+    width: 120px;
+    height: 120px;
+  }
+
+  .person .name, .person .title {
+    font-size: 12px;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  footer ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  footer a {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+

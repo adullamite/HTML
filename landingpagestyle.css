@@ -260,3 +260,89 @@ a:hover {
   color: aliceblue;
   text-shadow: 0 0 5px white;
 }
+
+/* ============ MOBILE VIEW (for screens below 768px) ============ */
+@media (max-width: 768px) {
+
+  /* General body & text scaling */
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navLinks {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  #button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  #hub {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  /* Hero Section */
+  .WorkSpace {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .text1 {
+    font-size: 18px;
+  }
+
+  .text2 {
+    font-size: 14px;
+  }
+
+  /* Writeup Section */
+  .writeup {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .writeup p {
+    font-size: 14px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  /* Services Section (Boxes) */
+  .last {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .last div {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    height: auto;
+    padding: 20
+  }
